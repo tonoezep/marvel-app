@@ -28,6 +28,34 @@
   color: #61dafb;
 }
 
+.ant-layout-header {
+  background: #ec1d24;
+
+  h1 {
+    color: rgba(255, 255, 255, 0.65);
+  }
+}
+
+.ant-layout-content {
+  padding-top: 65px;
+  .card-content {
+    height: 100vh;
+    position: fixed;
+    right: 0px;
+    min-width: 66.66666667%;
+    .ant-card {
+      height: 100%;
+      .ant-card-cover {
+        height: 45%;
+        img {
+          width: auto;
+          left: 50%;
+        }
+      }
+    }
+  }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
